@@ -1,0 +1,3 @@
+I'm trying to create a clone of a Brazillian website, its name is Vakinha, you can find it at https://www.vakinha.com.br/
+I am gonna try to clone it with html, css and Javascript... I'm not gonna use PHP for now, but feel free to contribute with PHP or another programming language if you want.
+Vakinhas is a brazillian website for charity, for donation, for helping people who needs help... So if you want to help someone who needs it, go to https://www.vakinha.com.br/
