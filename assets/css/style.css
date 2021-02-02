@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #ededed;
+}
+header{
+	height: 15vh;
+	background-color:#fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menuLeft{
+	display: flex;
+	align-items: center;
+	margin-left: 120px;
+	cursor: pointer;
+}
+.menuLeft span{
+	color: #24ca68;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-left: 5px;
+}
+.menuRight{
+	margin-right: 120px;
+}
+.menuRight form input{
+	padding:10px 140px 10px 8px;
+	border-radius: 5px;
+	border:1px solid #ced4da;
+}
+.alertDiv{
+	padding: 11px;
+	border: 1px solid #ccc;
+	margin-top: 7px;
+	border-radius: 5px;
+	color: #989898;
+}
+ [placeholder]{
+	font-size: 1rem;
+}
+form .btnSearch{
+	background:transparent;
+	border:none;
+	border-left:1px solid #ced4da;
+	padding-left: 20px;
+	margin-left: -60px;
+	outline: 0;
+}
+form .btnSearch .fas.fa-search{
+	font-size: 22px;
+	color: #25ca68;
+}
+.menuRight nav ul{
+	display: flex;
+	align-items: center;
+}
+.menuRight nav ul li{
+	margin-right: 20px;
+}
+.menuRight nav ul li:first-child{
+	margin-right: 30px;
+}
+.menuRight nav ul li:last-child{
+	margin-right: 0;
+	background-color: #24ca68;
+	padding:13px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.menuRight nav ul li:last-child:hover{
+	background-color: #20b55d;
+}
+.menuRight nav ul li:nth-child(2) a{
+	color:#898989;
+}
+.menuRight nav ul li:nth-child(3) a, .menuRight nav ul li:nth-child(4) a{
+	color:#24ca68;
+}
+.menuRight nav ul li:last-child a{
+	color: #fff;
+}
