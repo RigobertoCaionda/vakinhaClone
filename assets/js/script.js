@@ -13,5 +13,4 @@ function changeBorder(){
 	remove.remove(remove);
 	let searchInput = document.querySelector('.searchInput');
 	searchInput.style.border = "1px solid #ced4da";
-	//Proximo passo, fazer com que ao clicar mais uma vez no input o divAlert desapareca
 }

@@ -36,6 +36,7 @@ header{
 	padding:10px 140px 10px 8px;
 	border-radius: 5px;
 	border:1px solid #ced4da;
+	cursor: default;
 }
 .alertDiv{
 	padding: 11px;
@@ -87,4 +88,99 @@ form .btnSearch .fas.fa-search{
 }
 .menuRight nav ul li:last-child a{
 	color: #fff;
+}
+/*MAIN BANNER*/
+.mainBanner{
+	background-image: url("../images/helping-people.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+.mainBannerInsideItem h1{
+	color:#fff;
+	font-size: 2.5rem;
+	padding-top: 120px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.mainBannerInsideItem form input{
+	border:0;
+	outline: 0;
+	padding:14px 160px 14px 15px;
+	margin-right: 30px;
+	border-radius: 5px;
+}
+
+.formInside{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.formInside.submit{
+	padding-bottom: 160px;
+}
+.formInside.submit .subm{
+	padding:15px 50px;
+	margin:0;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #24ca68;
+}
+.formInside.submit .subm:hover{
+	cursor: pointer;
+	background-color: #20b55d;
+}
+.principal--banner{
+	margin-bottom: 17px;
+}
+/*CLUBE VAKINHA EDUCACAO*/
+.vakinha--education--club--section{
+	width: 85%;
+	margin:auto;
+}
+.vakinha--education--club{
+	background-color: rgb(0, 106, 59);
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+	padding-right: 35px;
+}
+.vakinha--education--club--inner--item h1{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+.vakinha--education--club--inner--item h1 span{
+	font-size: 3rem;
+}
+.vakinha--education--club--inner{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.top{
+	width: 290px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.down{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.down a{
+	background-color: #24ca68;
+	color: #fff;
+	border-radius: 5px;
+	padding:13px 15px;
+}
+.down a:hover{
+	background-color: #20b55d;
+}
+.vakinha--education--club--inner--item.space{
+	margin-right: 100px;
 }
