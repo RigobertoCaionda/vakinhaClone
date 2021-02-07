@@ -1,3 +1,8 @@
+let containerItemTitle = document.querySelector('.container--item--titulo');
+if(containerItemTitle.innerHTML.length > 35){
+	let newText = containerItemTitle.innerHTML.substr(0, 35) + '...';
+	document.querySelector('.container--item--titulo').innerHTML = newText;
+}
 function onFocus(){
 	let searchInput = document.querySelector('.searchInput');
 		let alertDiv = document.createElement('div');

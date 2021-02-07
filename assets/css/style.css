@@ -139,6 +139,7 @@ form .btnSearch .fas.fa-search{
 .vakinha--education--club--section{
 	width: 85%;
 	margin:auto;
+	margin-bottom: 40px;
 }
 .vakinha--education--club{
 	background-color: rgb(0, 106, 59);
@@ -183,4 +184,107 @@ form .btnSearch .fas.fa-search{
 }
 .vakinha--education--club--inner--item.space{
 	margin-right: 100px;
+}
+/*Arrecadacoes*/
+.vakinhaWon{
+	width: 80%;
+	margin:auto;
+}
+.vakinhaWon h1{
+	font-weight: 200;
+	color: #434040;
+	margin-bottom: 30px;
+}
+.vakinhaWon h1 span{
+	font-weight: 400;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:30px;
+}
+.container--photo img{
+	width: 100%;
+	height: 30vh;
+	object-fit: cover;
+}
+.container--item{
+	cursor: pointer;
+	background-color: #fff;
+}
+.container--item--titulo{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #434040;
+	padding-left: 10px;
+}
+.container--item--text{
+	display: flex;
+}
+.container--item--text--left{
+	margin-right: 15px;
+	color: #434040;
+	font-size: 0.9rem;
+	padding-left: 10px;
+}
+.container--item--text--right{
+	font-size: 0.9rem;
+	color: #434040;
+	font-weight: 200;
+}
+.person--data{
+	display: flex;
+	padding-top: 15px;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 10px;
+}
+.person--picture{
+	margin-right: 15px;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 50%; 
+}
+.person--picture img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.person--name{
+	color: #434040;
+	font-weight: 700;
+
+}
+.earnedMoney{
+	margin-top: 6px;
+	margin-bottom: 6px;
+	color: #434040;
+	padding-left: 10px;
+}
+.percentage{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.number{
+	color: #24ca68;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-right: 6px;
+	width: 50px;
+}
+.greenPercentage{
+	flex:1;
+	margin-right: 15px;
+	height: 10px;
+	background-color: #28cb67;
+	border-radius:10px;
+}
+.goal{
+	color: #434040;
+	padding-left: 10px;
+	margin-bottom: 15px;
 }
