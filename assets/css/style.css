@@ -39,11 +39,17 @@ header{
 	cursor: default;
 }
 .alertDiv{
-	padding: 11px;
 	border: 1px solid #ccc;
-	margin-top: 7px;
 	border-radius: 5px;
+	background-color: #fff;
 	color: #989898;
+	margin-top: 5px;
+	opacity: 0;
+	transition: all ease 0.3s;
+	padding:10px 0;
+	width: 325px;
+	text-align: center;
+	position: absolute;
 }
  [placeholder]{
 	font-size: 1rem;
@@ -189,6 +195,7 @@ form .btnSearch .fas.fa-search{
 .vakinhaWon{
 	width: 80%;
 	margin:auto;
+	padding-bottom: 30px;
 }
 .vakinhaWon h1{
 	font-weight: 200;
@@ -216,7 +223,7 @@ form .btnSearch .fas.fa-search{
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: #434040;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .container--item--text{
 	display: flex;
@@ -225,7 +232,7 @@ form .btnSearch .fas.fa-search{
 	margin-right: 15px;
 	color: #434040;
 	font-size: 0.9rem;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .container--item--text--right{
 	font-size: 0.9rem;
@@ -238,7 +245,7 @@ form .btnSearch .fas.fa-search{
 	align-items: center;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ddd;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .person--picture{
 	margin-right: 15px;
@@ -262,12 +269,12 @@ form .btnSearch .fas.fa-search{
 	margin-top: 6px;
 	margin-bottom: 6px;
 	color: #434040;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .percentage{
 	display: flex;
 	align-items: center;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .number{
 	color: #24ca68;
@@ -285,6 +292,58 @@ form .btnSearch .fas.fa-search{
 }
 .goal{
 	color: #434040;
-	padding-left: 10px;
+	padding-left: 15px;
 	margin-bottom: 15px;
+}
+/*QUEM JA USOU VAKINHA*/
+.whoUsedVakinha{
+	background-color: #24a052;
+	padding-top: 40px;
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-bottom: 70px;
+}
+.whoUsedVakinha h1{
+	color: #f1f0f0;
+	text-align: center;
+	font-size: 2.3rem;
+	margin-bottom: 30px;
+}
+.whoUsedVakinha h1 span{
+	font-weight: 200;
+}
+.people--who--used--vakinha{
+	display: flex;
+	justify-content: center;
+}
+.people--who--used--vakinha--item{
+	margin-right: 50px;
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.people--who--used--vakinha--item:last-child{
+	margin-right: 0;
+}
+.people--who--used--vakinha--img{
+	width: 110px;
+	height: 110px;
+	margin-bottom: 25px;
+}
+.people--who--used--vakinha--img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.people--who--used--vakinha--text{
+	text-align: center;
+	color: #f1f0f0;
+	margin-bottom: 25px;
+	line-height: 25px;
+}
+.people--who--used--vakinha--profession{
+	color: #f1f0f0;
+	text-align: center;
 }

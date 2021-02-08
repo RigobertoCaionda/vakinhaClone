@@ -1,21 +1,32 @@
-let containerItemTitle = document.querySelector('.container--item--titulo');
-if(containerItemTitle.innerHTML.length > 35){
-	let newText = containerItemTitle.innerHTML.substr(0, 35) + '...';
-	document.querySelector('.container--item--titulo').innerHTML = newText;
+let searchInput = document.querySelector('.searchInput');
+let alertDiv = document.querySelector('.alertDiv');
+let containerItemTitle = document.querySelectorAll('.container--item--titulo');
+for(let i = 0; i < containerItemTitle.length; i++) {
+	if(containerItemTitle[i].innerHTML.length > 34) {
+		let newText = containerItemTitle[i].innerHTML.substr(0, 34) + '...';
+		containerItemTitle[i].innerHTML = newText;
+	}
 }
-function onFocus(){
-	let searchInput = document.querySelector('.searchInput');
-		let alertDiv = document.createElement('div');
-		alertDiv.classList.add('alertDiv');
-		alertDiv.innerHTML = 'Digite ao menos 3 caracteres.';
-		searchInput.parentElement.insertBefore(alertDiv, searchInput.ElementSibling);
-		searchInput.style.outline = 'none';
-		searchInput.style.border = "4px solid #bfdeff";
-		alert == true;
+	function threeCaracters(){
+		if(searchInput.value.length > 2){
+			alertDiv.style.backgroundColor = '#cce4ff';
+		alertDiv.innerHTML = `Procurar por ${searchInput.value}`;
+	}else{
+		alertDiv.innerHTML = "Digite ao menos 3 caracteres";
+		alertDiv.style.backgroundColor = '#fff';
+	}
+	}
+
+function onClique(){
+		if(alertDiv.style.opacity == 0){
+				searchInput.style.outline = 'none';
+				searchInput.style.border = "4px solid #bfdeff";
+				alertDiv.style.opacity='1';
+			}else{
+				alertDiv.style.opacity='0';
+			}
 }
 function changeBorder(){
-	let remove = document.querySelector('.alertDiv');
-	remove.remove(remove);
-	let searchInput = document.querySelector('.searchInput');
+	alertDiv.style.opacity = '0';
 	searchInput.style.border = "1px solid #ced4da";
 }
