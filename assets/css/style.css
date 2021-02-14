@@ -191,7 +191,7 @@ form .btnSearch .fas.fa-search{
 .vakinha--education--club--inner--item.space{
 	margin-right: 100px;
 }
-/*Arrecadacoes*/
+/*ARRECADACOES*/
 .vakinhaWon{
 	width: 80%;
 	margin:auto;
@@ -494,7 +494,8 @@ form .btnSearch .fas.fa-search{
 .footer{
 	background-color: #4a4a4a;
 	padding:40px 140px;
-}.footer a{
+}
+.footer a{
 	color: #a4a4a4;
 	font-size: 0.9rem;
 }
@@ -599,4 +600,86 @@ form .btnSearch .fas.fa-search{
 	border:none;
 	border-radius: 2px;
 	cursor: pointer;
+}
+/*TABLET VERSION*/
+@media(min-width: 768px) and (max-width: 1023px){
+	.menuLeft{
+		margin-left: 15px;
+		margin-right: 10px;
+	}
+	
+	.menuRight{
+	margin-right: 10px;
+}
+.menuRight form input{
+	padding:10px 35px 10px 6px;
+}
+.alertDiv{
+	width: 220px;
+}
+.greenPercentage{
+	height: 6px;
+}
+.container--item--text--left{
+	width: 111px;
+	word-wrap: break-word;
+}
+.vakinhaTimeLine--div--item{
+	width: auto;
+	margin:0 0 10px 30px;
+}
+.vakinhaTimeLine h1{
+	padding:60px 30 30px 30px;
+}
+
+.vakinhaTimeLine--div--item--container .photo{
+	margin-left: 10px;
+}
+.vakinhaTimeLine--div--item--text{
+	margin:0 0 10px 30px;
+}
+.vakinhaTimeLine--div--item--img{
+	margin-left: 30px;
+}
+.vakinhaTimeLine--div--item--content{
+	margin-left: 30px;
+}
+.leftInformation{
+	margin-right: 40px;
+}
+.social--media{
+	margin-left: 30px;
+}
+.getSomeNews{
+	width: 600px;
+	margin:0 0 30px 50px;
+}
+/*WHO USED VAKINHA*/
+.whoUsedVakinha{
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0;
+}
+.people--who--used--vakinha--item{
+	margin-right: 20px;
+}
+.people--who--used--vakinha--img{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+/*FOOTER*/
+.footer{
+	padding:20px 40px;
+}
+.footer--container--item{
+	margin-right: 40px;
+}
+.footer--container--item:nth-child(3){
+	margin-right: 60px;
+}
+.footer--form form input{
+	padding:10px 80px 10px 0;
+}
 }
