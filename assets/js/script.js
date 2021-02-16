@@ -30,3 +30,13 @@ function changeBorder(){
 	alertDiv.style.opacity = '0';
 	searchInput.style.border = "1px solid #ced4da";
 }
+function openMenu(){
+	let ul = document.querySelector('.menuRight nav ul');
+	let menuOpener = document.querySelector('.menuOpener');
+	if(ul.style.opacity=='0'){
+		ul.style.opacity='1';
+	}else{
+		ul.style.opacity='0';
+	}
+}
+//Consegui colocar um ao lado do outro, so que quando eu giro, o site completp acompanha

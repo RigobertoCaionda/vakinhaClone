@@ -15,20 +15,21 @@
 	</div>
 	<div class="menuRight">
 		<nav>
-			<ul>
-				<li>
-				<form>
+			<form>
 					<input type="text" placeholder="Digite o ID ou título" onclick="onClique();" class="searchInput" onblur="changeBorder();" onkeyup="threeCaracters();">
 					<button type="submit" class="btnSearch"><i class="fas fa-search" title="search icon"></i></button>
 					<div class="alertDiv">Digite ao menos 3 caracteres</div>
 				</form>
-				</li>
+			<ul>
 				<li><a href="">Explore</a></li>
 				<li><a href="">Cadastre-se</a></li>
 				<li><a href="">Login</a></li>
 				<li><a href="">Criar vaquinha</a></li>
 			</ul>
 		</nav>
+	</div>
+	<div class="menuOpener" onclick="openMenu();">
+		<img src="assets/images/menu.png" width="30">
 	</div>
 </header>
 <section class="principal--banner">
@@ -629,6 +630,7 @@
 </section>
 <footer class="footer">
 	<div class="footer--container">
+		<div class="doubleFooter">
 		<div class="footer--container--item">
 			<a href="">Quem somos?</a>
 			<a href="">Vaquinhas</a>
@@ -641,6 +643,7 @@
 			<a href="">Taxas e prazos</a>
 			<a href="">Fale conosco</a>
 		</div>
+	</div>
 		<div class="footer--container--item">
 			<a href="">Vakinha Premiada Consulta</a>
 		</div>
