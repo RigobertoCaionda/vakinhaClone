@@ -34,6 +34,7 @@ header{
 	display: none;
 }
 .menuRight{
+	display: flex;
 	margin-right: 120px;
 }
 .menuRight form{
@@ -704,8 +705,8 @@ form .btnSearch .fas.fa-search{
 		position: fixed;
 	}
 	.menuLeft{
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 8px;
+		margin-right: 8px;
 	}
 	.menuLeft img{
 		width: 40px;
@@ -801,8 +802,9 @@ form .btnSearch .fas.fa-search{
 	padding:10px 35px 10px 6px;
 	
 }
+
 .alertDiv{
-	width: 220px;
+	width: 215px;
 }
 .greenPercentage{
 	height: 6px;
@@ -1029,7 +1031,7 @@ form .btnSearch .fas.fa-search{
 	padding:10px 20px 10px 5px;
 }
 .alertDiv{
-	width: 197px;
+	width: 194px;
 	font-size: 0.8rem;
 }
 .greenPercentage{
@@ -1155,6 +1157,9 @@ form .btnSearch .fas.fa-search{
 .allRightsDeserved--left{
 	margin-bottom: 20px;
 }
+form .btnSearch{
+	border-left:none;
+}
 }
 
 /*MOBILE VERSION - 320px*/
@@ -1164,11 +1169,11 @@ form .btnSearch .fas.fa-search{
 		position: fixed;
 	}
 	.menuLeft{
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 4px;
+		margin-right: 4px;
 	}
 	.menuLeft img{
-		width: 30px;
+		width: 28px;
 	}
 	.menuLeft span{
 		font-size: 1rem;
@@ -1404,5 +1409,8 @@ form .btnSearch .fas.fa-search{
 }
 .footer--form form input{
 	padding:10px 100px 10px 0;
+}
+form .btnSearch{
+	border:none;
 }
 }

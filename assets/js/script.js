@@ -33,10 +33,13 @@ function changeBorder(){
 function openMenu(){
 	let ul = document.querySelector('.menuRight nav ul');
 	let menuOpener = document.querySelector('.menuOpener');
+	let menuOpenerImg = document.querySelector('.menuOpener img');
 	if(ul.style.opacity=='0'){
 		ul.style.opacity='1';
+		menuOpenerImg.src = 'assets/images/sair.png';
+
 	}else{
 		ul.style.opacity='0';
+		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
-//Consegui colocar um ao lado do outro, so que quando eu giro, o site completp acompanha
