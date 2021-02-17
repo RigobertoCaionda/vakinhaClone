@@ -1023,14 +1023,14 @@ form .btnSearch .fas.fa-search{
 		padding-right: 120px;
 	}
 	.menuRight{
-	margin-right: 0;
+	margin-right: -9px;
 }
 .menuRight form input{
 	padding:10px 20px 10px 5px;
-	
 }
 .alertDiv{
-	width: 205px;
+	width: 197px;
+	font-size: 0.8rem;
 }
 .greenPercentage{
 	height: 6px;
@@ -1074,13 +1074,14 @@ form .btnSearch .fas.fa-search{
 }
 
 .leftInformation{
-	margin-right: 40px;
+	margin-right: 35px;
 }
 .leftInformation1{
 	font-size: 0.7rem;
 }
 .rightInformation a{
 	padding:10px;
+	font-size: 0.8rem;
 }
 .social--media{
 	width: 82vw;
@@ -1272,7 +1273,7 @@ form .btnSearch .fas.fa-search{
 	
 }
 .alertDiv{
-	width: 187px;
+	width: 178px;
 	font-size: 0.8rem;
 }
 .greenPercentage{
@@ -1319,7 +1320,7 @@ form .btnSearch .fas.fa-search{
 	width: 30px; 
 }
 .leftInformation{
-	margin-right: 40px;
+	margin-right: 30px;
 }
 .leftInformation1{
 	font-size: 0.5rem;
@@ -1327,7 +1328,7 @@ form .btnSearch .fas.fa-search{
 
 .rightInformation a{
 	padding:7px 3px;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 }
 .social--media{
 	width: 82vw;
