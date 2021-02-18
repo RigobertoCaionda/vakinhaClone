@@ -210,6 +210,9 @@ form .btnSearch .fas.fa-search{
 	margin:auto;
 	padding-bottom: 30px;
 }
+.slider--controls{
+	display: none;
+}
 .vakinhaWon h1{
 	font-weight: 200;
 	color: #434040;
@@ -728,7 +731,7 @@ form .btnSearch .fas.fa-search{
 		left: 0;
 		align-items: flex-start;
 		transition: all ease 0.3s;
-		opacity: 0;
+		display: none;
 	}
 	.mainBannerInsideItem h1{
 		font-size: 1.5rem;
@@ -764,17 +767,39 @@ form .btnSearch .fas.fa-search{
 		align-items: center;
 	}
 	/*VAKINHAWON*/
-	.vakinhaWon{
-		width: 90%;
+		.vakinhaWon{
+		overflow: hidden;/*This is the secret*/
+		width: 100%;
+		padding-left: 15px;
 	}
 	.vakinhaWon h1{
 	text-align: center;
 }
+.slider--controls{
+	position: absolute;
+	z-index: 99;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider--control{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	overflow: hidden;
+	cursor: pointer;
+}
 .container{
-	grid-template-columns: repeat(1, 1fr);
+	width: calc(9 * 100vw);
+	height: 100%;
+	grid-template-columns: repeat(9, 1fr);
+	transition: all ease 0.3s;
 }
 .container--item{
 	width: 90vw;
+	height: inherit;
 }
 /*END OF VAKINHAWON*/
 	.menuRight nav ul li{
@@ -935,17 +960,17 @@ form .btnSearch .fas.fa-search{
 		margin-right: 10px;
 	}
 	.menuLeft img{
-		width: 40px;
+		width: 42px;
 	}
 	.menuLeft span{
-		font-size: 1.2rem;
+		display: none;
 	}
 	.menuOpener{
 	display: block;
 	cursor: pointer;
 }
 .menuOpener img{
-	width: 20px;
+	width: 25px;
 }
 	.menuRight nav ul{
 		flex-direction: column;
@@ -957,7 +982,7 @@ form .btnSearch .fas.fa-search{
 		left: 0;
 		align-items: flex-start;
 		transition: all ease 0.3s;
-		opacity: 0;
+		display: none;
 	}
 	.mainBannerInsideItem h1{
 		font-size: 1.5rem;
@@ -993,18 +1018,41 @@ form .btnSearch .fas.fa-search{
 		align-items: center;
 	}
 	/*VAKINHAWON*/
-	.vakinhaWon{
-		width: 90%;
+		.vakinhaWon{
+		overflow: hidden;/*This is the secret*/
+		width: 100%;
+		padding-left: 15px;
 	}
 	.vakinhaWon h1{
 	text-align: center;
 }
+.slider--controls{
+	position: absolute;
+	z-index: 99;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider--control{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	overflow: hidden;
+	cursor: pointer;
+}
 .container{
-	grid-template-columns: repeat(1, 1fr);
+	width: calc(9 * 100vw);
+	height: 100%;
+	grid-template-columns: repeat(9, 1fr);
+	transition: all ease 0.3s;
 }
 .container--item{
 	width: 90vw;
+	height: inherit;
 }
+
 /*END OF VAKINHAWON*/
 	.menuRight nav ul li{
 		margin-left: 20px;
@@ -1028,10 +1076,10 @@ form .btnSearch .fas.fa-search{
 	margin-right: -9px;
 }
 .menuRight form input{
-	padding:10px 20px 10px 5px;
+	padding:8px 80px 8px 5px;
 }
 .alertDiv{
-	width: 194px;
+	width: 256px;
 	font-size: 0.8rem;
 }
 .greenPercentage{
@@ -1173,18 +1221,17 @@ form .btnSearch{
 		margin-right: 4px;
 	}
 	.menuLeft img{
-		width: 28px;
+		width: 30px;
 	}
 	.menuLeft span{
-		font-size: 1rem;
-		margin-left: 2px;
+		display: none;
 	}
 	.menuOpener{
 	display: block;
 	cursor: pointer;
 }
 .menuOpener img{
-	width: 15px;
+	width: 20px;
 }
 form .btnSearch{
 	padding-left: 2px;
@@ -1203,7 +1250,7 @@ form .btnSearch .fas.fa-search{
 		left: 0;
 		align-items: flex-start;
 		transition: all ease 0.3s;
-		opacity: 0;
+		display: none;
 	}
 	.mainBannerInsideItem h1{
 		font-size: 1.5rem;
@@ -1240,16 +1287,37 @@ form .btnSearch .fas.fa-search{
 	}
 	/*VAKINHAWON*/
 	.vakinhaWon{
-		width: 90%;
+		overflow: hidden;/*This is the secret*/
+		width: 100%;
+		padding-left: 15px;
 	}
 	.vakinhaWon h1{
 	text-align: center;
 }
+.slider--controls{
+	position: absolute;
+	z-index: 99;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider--control{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	overflow: hidden;
+	cursor: pointer;
+}
 .container{
-	grid-template-columns: repeat(1, 1fr);
+	height: 100%;
+	grid-template-columns: repeat(9, 1fr);
+	transition: all ease 0.3s;
 }
 .container--item{
 	width: 90vw;
+	height: inherit;
 }
 /*END OF VAKINHAWON*/
 	.menuRight nav ul li{
@@ -1274,11 +1342,11 @@ form .btnSearch .fas.fa-search{
 	margin-right: 0;
 }
 .menuRight form input{
-	padding:5px 5px 5px 2px;
+	padding:4px 60px 4px 2px;
 	
 }
 .alertDiv{
-	width: 178px;
+	width: 235px;
 	font-size: 0.8rem;
 }
 .greenPercentage{

@@ -7,6 +7,29 @@ for(let i = 0; i < containerItemTitle.length; i++) {
 		containerItemTitle[i].innerHTML = newText;
 	}
 }
+let currentSlide = 0;
+let totalSliders = document.querySelectorAll('.container--item').length;
+document.querySelector('.container').style.width = `calc(100vw * ${totalSliders})`;
+document.querySelector('.slider--controls').style.height = 
+`${document.querySelector('.vakinhaWon').clientHeight}px`;
+function goPrev(){
+	currentSlide--;
+	if(currentSlide < 0){
+		currentSlide = totalSliders - 1;
+	}
+	updateMargin();
+}
+function goNext(){
+	currentSlide++;
+	if(currentSlide > (totalSliders - 1)){
+		currentSlide = 0;
+	}
+	updateMargin();
+}
+function updateMargin(){
+	let newMargin = (currentSlide * document.body.clientWidth);
+	document.querySelector('.container').style.marginLeft = `-${newMargin}px`;
+}
 	function threeCaracters(){
 		if(searchInput.value.length > 2){
 			alertDiv.style.backgroundColor = '#cce4ff';
@@ -34,12 +57,16 @@ function openMenu(){
 	let ul = document.querySelector('.menuRight nav ul');
 	let menuOpener = document.querySelector('.menuOpener');
 	let menuOpenerImg = document.querySelector('.menuOpener img');
-	if(ul.style.opacity=='0'){
-		ul.style.opacity='1';
+	if(ul.style.display=='none'){
+		ul.style.opacity='0';
+		ul.style.display='flex';
+		setInterval(()=>{
+			ul.style.opacity='1';
+		},200);
 		menuOpenerImg.src = 'assets/images/sair.png';
 
 	}else{
-		ul.style.opacity='0';
+		ul.style.display='none';
 		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
