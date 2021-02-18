@@ -70,21 +70,5 @@ function openMenu(){
 		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
-var pozx;
-var pozx1;
-var containerItem = document.querySelector(".container--item");
-containerItem.addEventListener("touchstart", function (e){
-	e=e || window.event;
-	pozx = e.changedTouches[0].pageX;
-});
-containerItem.addEventListener("touchend", function (e){
-	e=e || window.event;
-	pozx1 = e.changedTouches[0].pageX;
-	kontrol = pozx1 - pozx;
-	if(kontrol > 10){
-		goNext();
-	}
-	if(kontrol < 10){
-		goPrev();
-	}
-});
+let containerItem = document.querySelector('.container--item');
+containerItem.addEventListener("touchmove", goNext());
