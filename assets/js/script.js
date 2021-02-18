@@ -82,9 +82,9 @@ containerItem.addEventListener("touchend", function (e){
 	pozx1 = e.changedTouches[0].pageX;
 	kontrol = pozx1 - pozx;
 	if(kontrol > 10){
-		alert("right swipe");
+		goNext();
 	}
 	if(kontrol < 10){
-		alert("left swipe");
+		goPrev();
 	}
 });
