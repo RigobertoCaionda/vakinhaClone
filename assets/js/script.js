@@ -70,5 +70,3 @@ function openMenu(){
 		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
-let containerItem = document.querySelector('.container--item');
-containerItem.addEventListener("touchmove", goNext());
