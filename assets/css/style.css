@@ -1020,7 +1020,7 @@ form .btnSearch .fas.fa-search{
 	/*VAKINHAWON*/
 		.vakinhaWon{
 		overflow: hidden;/*This is the secret*/
-		width: 100%;
+		width: 90%;
 		padding-left: 15px;
 	}
 	.vakinhaWon h1{
@@ -1288,7 +1288,7 @@ form .btnSearch .fas.fa-search{
 	/*VAKINHAWON*/
 	.vakinhaWon{
 		overflow: hidden;/*This is the secret*/
-		width: 100%;
+		width: 90%;
 		padding-left: 15px;
 	}
 	.vakinhaWon h1{
