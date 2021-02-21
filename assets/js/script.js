@@ -70,3 +70,24 @@ function openMenu(){
 		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
+
+/*START OF IMAGES SWIPE MOVEMENT*/
+	var startingX , startingY , movingX , movingY ;
+						function touchStart(evt){
+						startingX = evt.touches[0].clientX ;
+						startingY = evt.touches[0].clientY ;
+						}
+						function touchMove(evt){
+						movingX = evt.touches[0].clientX ;
+						movingY = evt.touches[0].clientY ;
+						}
+						function touchEnd(){
+						if(startingX+100 < movingX){
+												goNext();
+						} else if(startingX-100 > movingX){
+												goPrev();
+												}
+					 
+					 
+						}
+/*END OF IMAGES SWIPE MOVEMENT*/
