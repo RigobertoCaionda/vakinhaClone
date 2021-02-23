@@ -1012,6 +1012,14 @@ form .btnSearch .fas.fa-search{
 		margin-right: 0;
 		width: 90%;
 	}
+	.formInside.submit .subm{
+	all:unset;
+	padding:15px 50px;
+	margin:0;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #24ca68;
+}
 	.mainBannerInsideItem form input:first-child{
 		margin-bottom: 17px;
 	}
@@ -1028,22 +1036,7 @@ form .btnSearch .fas.fa-search{
 	.vakinhaWon h1{
 	text-align: center;
 }
-.slider--controls{
-	position: absolute;
-	z-index: 99;
-	width: 90%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.slider--control{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #000;
-	overflow: hidden;
-	cursor: pointer;
-}
+
 .container{
 	width: calc(9 * 100vw);
 	height: 100%;
