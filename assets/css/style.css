@@ -129,6 +129,9 @@ form .btnSearch .fas.fa-search{
 	outline: 0;
 	padding:14px 160px 14px 15px;
 	margin-right: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 }
 
