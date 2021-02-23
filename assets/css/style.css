@@ -125,6 +125,7 @@ form .btnSearch .fas.fa-search{
 	text-align: center;
 }
 .mainBannerInsideItem form input{
+	all:unset;
 	border:0;
 	outline: 0;
 	padding:14px 160px 14px 15px;
