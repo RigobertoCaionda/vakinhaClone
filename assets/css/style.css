@@ -141,13 +141,15 @@ form .btnSearch .fas.fa-search{
 	padding-bottom: 160px;
 }
 .formInside.submit .subm{
-	background-color: unset;
 	padding:15px 50px;
 	margin:0;
 	font-size: 1rem;
 	color: #fff;
 	-webkit-background-color: #24ca68;
 	background-color: #24ca68;
+}
+.subm{
+	all:unset;
 }
 .formInside.submit .subm:hover{
 	cursor: pointer;
