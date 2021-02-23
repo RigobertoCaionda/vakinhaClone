@@ -9,9 +9,6 @@ for(let i = 0; i < containerItemTitle.length; i++) {
 }
 let currentSlide = 0;
 let totalSliders = document.querySelectorAll('.container--item').length;
-document.querySelector('.container').style.width = `calc(100vw * ${totalSliders})`;
-document.querySelector('.slider--controls').style.height = 
-`${document.querySelector('.vakinhaWon').clientHeight}px`;
 function goPrev(){
 	currentSlide--;
 	if(currentSlide < 0){
@@ -28,7 +25,7 @@ function goNext(){
 }
 function updateMargin(){
 	let newMargin = (currentSlide * document.body.clientWidth);
-	document.querySelector('.container').style.marginLeft = `-${newMargin}px`;
+	document.querySelector('.container').style.marginLeft = `calc(-${newMargin}px - 20px)`;
 }
 	function threeCaracters(){
 		if(searchInput.value.length > 2){
@@ -70,3 +67,22 @@ function openMenu(){
 		menuOpenerImg.src = 'assets/images/menu.png';
 	}
 }
+
+var startingX , startingY , movingX , movingY ;
+						function touchStart(evt){
+						startingX = evt.touches[0].clientX ;
+						startingY = evt.touches[0].clientY ;
+						}
+						function touchMove(evt){
+						movingX = evt.touches[0].clientX ;
+						movingY = evt.touches[0].clientY ;
+						}
+						function touchEnd(){
+						if(startingX+100 < movingX){
+												goNext();//right
+						} else if(startingX-100 > movingX){
+												goPrev();//left
+												}
+					 
+					 
+						}
