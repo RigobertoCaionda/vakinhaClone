@@ -1016,7 +1016,7 @@ form .btnSearch .fas.fa-search{
 		padding:10px 0;
 		margin:0;
 		font-size: 1rem;
-		color: #fff !important;
+		color: #fff;
 		background-color: #24ca68;
 		border-radius: 5px;
 		width: 90%;
