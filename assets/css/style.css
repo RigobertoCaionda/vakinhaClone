@@ -141,7 +141,6 @@ form .btnSearch .fas.fa-search{
 	padding-bottom: 160px;
 }
 .formInside.submit .subm{
-	all:unset;
 	padding:15px 50px;
 	margin:0;
 	font-size: 1rem;
@@ -1013,13 +1012,15 @@ form .btnSearch .fas.fa-search{
 		width: 90%;
 	}
 	.formInside.submit .subm{
-	all:unset;
-	padding:15px 50px;
-	margin:0;
-	font-size: 1rem;
-	-webkit-color:#fff;
-	color: #fff;
-	background-color: #24ca68;
+		all:unset;
+		padding:10px 0;
+		margin:0;
+		font-size: 1rem;
+		color: #fff;
+		background-color: #24ca68;
+		border-radius: 5px;
+		width: 90%;
+		text-align: center;
 }
 	.mainBannerInsideItem form input:first-child{
 		margin-bottom: 17px;
