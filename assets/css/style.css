@@ -1012,11 +1012,13 @@ form .btnSearch .fas.fa-search{
 		width: 90%;
 	}
 	.formInside.submit .subm{
+		-webkit-appearance: button;
 		all:unset;
 		padding:10px 0;
 		margin:0;
 		font-size: 1rem;
 		background-color: #24ca68;
+		color: #fff;
 		border-radius: 5px;
 		width: 90%;
 		text-align: center;
