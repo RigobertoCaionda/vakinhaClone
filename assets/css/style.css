@@ -141,12 +141,11 @@ form .btnSearch .fas.fa-search{
 	padding-bottom: 160px;
 }
 .formInside.submit .subm{
-	all:unset;
+	background-color: unset;
 	padding:15px 50px;
 	margin:0;
 	font-size: 1rem;
-	-webkit-color: #fff;
-	color: red;
+	color: #fff;
 	-webkit-background-color: #24ca68;
 	background-color: #24ca68;
 }
