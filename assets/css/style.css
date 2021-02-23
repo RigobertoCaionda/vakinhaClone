@@ -148,6 +148,9 @@ form .btnSearch .fas.fa-search{
 	margin:0;
 	font-size: 1rem;
 	color: #fff;
+	-webkit-background-color: #24ca68;
+	-moz-background-color: #24ca68;
+	-o-background-color: #24ca68;
 	background-color: #24ca68;
 }
 .formInside.submit .subm:hover{
